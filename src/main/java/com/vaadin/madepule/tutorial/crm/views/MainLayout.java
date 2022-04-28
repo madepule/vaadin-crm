@@ -16,8 +16,8 @@ import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.html.UnorderedList;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.RouterLink;
-import com.vaadin.madepule.tutorial.crm.views.about.AboutView;
-import com.vaadin.madepule.tutorial.crm.views.helloworld.HelloWorldView;
+import com.vaadin.madepule.tutorial.crm.views.about.GretService;
+import com.vaadin.madepule.tutorial.crm.views.helloworld.MainView;
 
 /**
  * The main view is a top-level placeholder for other views.
@@ -115,9 +115,9 @@ public class MainLayout extends AppLayout {
 
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
-                new MenuItemInfo("Hello World", "la la-globe", HelloWorldView.class), //
+                new MenuItemInfo("Hello World", "la la-globe", MainView.class), //
 
-                new MenuItemInfo("About", "la la-file", AboutView.class), //
+                new MenuItemInfo("About", "la la-file", GretService.class), //
 
         };
     }

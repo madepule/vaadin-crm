@@ -10,9 +10,9 @@ import com.vaadin.madepule.tutorial.crm.views.MainLayout;
 
 @PageTitle("About")
 @Route(value = "about", layout = MainLayout.class)
-public class AboutView extends VerticalLayout {
+public class GretService extends VerticalLayout {
 
-    public AboutView() {
+    public GretService() {
         setSpacing(false);
 
         Image img = new Image("images/empty-plant.png", "placeholder plant");
